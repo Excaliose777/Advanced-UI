@@ -4,9 +4,8 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "next/core-web-vitals"
+    'plugin:react/recommended',
+    'airbnb',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -19,7 +18,7 @@ module.exports = {
     'react',
   ],
   rules: {
-    'react/no-unescaped-entities': 'off',
+    'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
     'react/jsx-first-prop-new-line': 0,
